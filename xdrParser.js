@@ -87,7 +87,7 @@ function fillValueArr(objArr){
     if (objArr[i].sk_path == "navigation.attitude") {
       if (objArr[i].name == "ROLL")
         attitudeObj.roll = objArr[i].data
-      if (objArr[i].name == "PTCH")
+      if (objArr[i].name == "PITCH")
         attitudeObj.pitch = objArr[i].data
       if (objArr[i].name == "YAW")
         attitudeObj.yaw = objArr[i].data

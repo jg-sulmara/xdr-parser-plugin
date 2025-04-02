@@ -46,7 +46,7 @@
 			{"type" : "Pitch",
 			"data" : "Angles",
 			"units" : "Deg",
-			"name" : "PTCH",
+			"name" : "PITCH",
 			"expression" : "(x*pi/180)",
 			"sk_path" : "navigation.attitude" },
 

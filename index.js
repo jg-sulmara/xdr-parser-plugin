@@ -18,9 +18,9 @@
 module.exports = function (app) {
 
   var plugin = {};
-  plugin.id = 'xdrParser-plugin';
-  plugin.name = 'NMEA0183 XDR Sentence Parser';
-  plugin.description = 'This plugin parses XDR sentences which are defined in the Plugin Config';
+  plugin.id = 'xdrParser-plugin-jgsulmara';
+  plugin.name = 'NMEA0183 XDR Sentence Parser - JG-Sulmara Fork';
+  plugin.description = 'This plugin parses XDR sentences which are defined in the Plugin Config - JG-Sulmara Fork updated to work with QuarkElec heading sensor (PITCH instead of PTCH)';
 
   var xdrProcCallback = undefined;
   var sentenceEventName = undefined;

@@ -1,7 +1,7 @@
 {
-  "name": "xdr-parser-plugin",
-  "version": "1.0.5",
-  "description": "This plugin parses XDR sentences which are defined in the Plugin Config",
+  "name": "xdr-parser-plugin-jgsulmara",
+  "version": "1.1.0",
+  "description": "This plugin parses XDR sentences which are defined in the Plugin Config - JG-Sulmara fork updated to work with QuarkElec heading sensor which outputs PITCH rather than PTCH",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "keywords": [
     "signalk-node-server-plugin"
   ],
-  "repository": "https://github.com/GaryWSmith/xdr-parser-plugin",
+  "repository": "https://github.com/jg-sulmara/xdr-parser-plugin",
   "author": "Gary Smith",
   "license": "ISC",
   "dependencies": {

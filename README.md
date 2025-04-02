@@ -1,3 +1,7 @@
+# Forked 02/04/2025
+Updated to work with QuarkElec heading sensors that output Roll and Pitch sentances with PITCH instead of PTCH. This plugin was hardcoded to PTCH, this has been changed to PITCH 
+
+
 # xdrParser-plugin
 Signalk plugin to parse nmea0183 XDR data
 
